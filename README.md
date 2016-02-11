@@ -27,7 +27,7 @@ _1 TILs and counting..._
 
 ### Hg
 
-- [hg graft](go/not-so-random.md)
+- [hg graft](hg/hg_graft.md)
 
 ### JavaScript
 
