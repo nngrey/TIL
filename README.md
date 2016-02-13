@@ -37,7 +37,7 @@ _1 TILs and counting..._
 
 ### Rails
 
-- [MIME type]
+- [MIME type](Rails/mime_type.md)
 
 ### Ruby
 
