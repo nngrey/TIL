@@ -31,13 +31,13 @@ _1 TILs and counting..._
 
 ### JavaScript
 
-### Linux
-
 ### Mac
 
 ### PostgreSQL
 
 ### Rails
+
+- [MIME type]
 
 ### Ruby
 
