@@ -1,6 +1,6 @@
 #z-index
 
-Today, I spent hours trying to get a Boostrap panel to sit on top of Google map. Part of the issue had to do with too many container classes in my application layout, but even after I got that straightened out, I was struggling to get the panel on top of, and not below, the map canvas.
+Today, I spent hours trying to get a Boostrap panel to sit on top of a Google map. Part of the issue had to do with too many container classes in my application layout, but even after I got that straightened out, I was struggling to get the panel to float on top of, and not beneath, the map canvas.
 
 Turns out the trick is a little CSS element called z-index, which can be used to stack elements on the page. By adding a negative value to the z-index of my map canvas, I was able to push it down and float the panel over it.
 
