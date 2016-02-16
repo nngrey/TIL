@@ -20,6 +20,7 @@ _1 TILs and counting..._
 * [PostgreSQL](#postgresql)
 * [Rails](#rails)
 * [Ruby](#ruby)
+* [CSS](#css)
 
 ---
 
@@ -40,6 +41,8 @@ _1 TILs and counting..._
 - [MIME type](Rails/mime_type.md)
 
 ### Ruby
+
+### CSS
 
 
 ## About
