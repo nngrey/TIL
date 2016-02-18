@@ -45,6 +45,7 @@ _1 TILs and counting..._
 ### CSS
 
 - [z-index](css/z-index.md)
+- [404](Rails/404.md)
 
 ## About
 
