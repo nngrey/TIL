@@ -42,6 +42,8 @@ _1 TILs and counting..._
 
 ### Ruby
 
+- [send](ruby/send.md)
+
 ### CSS
 
 - [z-index](css/z-index.md)
