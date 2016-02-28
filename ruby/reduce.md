@@ -1,6 +1,6 @@
 #reduce
 
-Yesterday, I  did a kata on Codewars that involved passing iterating over an array of functions. One of the highlighted solutions used the reduce method.
+Yesterday, I  did a kata on Codewars that involved iterating over an array of functions. One of the highlighted solutions used the reduce method.
 
 Reduce, which is also know as inject, takes an array and reduces it to a single value.
 
@@ -23,7 +23,9 @@ Reduce can also be passed a starting value:
 ([3, 4, 5]).reduce(2) { |sum, n| sum + n } => 14
 ```
 
-The Codewars kata passed an intial value to each function in an array of functions and returned the final value:
+If you do not specify an initial value, then the first element of the array is used as the initial value.
+
+The Codewars kata passed had an intial value and an array fo functions. Reduce was used to iterated over the array of functions. The initial value was was passed to the first function, the result was sent to the next function and so on.
 
 ```ruby
   def add num
