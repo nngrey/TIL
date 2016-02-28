@@ -1,6 +1,6 @@
 #send
 
-Today, I was did a kata on Codewars that required the send method. In the process I discovered two slightly different applications of the method.
+Today, I  did a kata on Codewars that required the send method. In the process, I discovered two slightly different applications of the method. The following is true of all or most Ruby methods, not just send.
 
 The ruby [docs](http://ruby-doc.org/core-2.3.0/Object.html#method-i-send) provide the following example of the send method. In this case we are calling send on an instance of Klass and passing in Klass's hello method.
 
@@ -14,23 +14,14 @@ The ruby [docs](http://ruby-doc.org/core-2.3.0/Object.html#method-i-send) provid
   k.send :hello, "gentle", "readers"   #=> "Hello gentle readers"
   ```
 
-In the solution to the kata, I used send without calling it on an instance:
+But I could also fire up irb and use send without calling it on an instance:
 
 ```ruby
-  def add num
-    num + 1
+  def hello(*args)
+    "Hello " + args.join(' ')
   end
 
-  def mult num
-    num * 30
-  end
-
-  def chain(input, methods)
-    methods.each {|method| input = send(method, input)}
-    input
-  end
-
-  chain(2, [:add, :mult])
+  send :hello, "gentle", "readers"   #=> "Hello gentle readers"
   ```
 
 In this case, 'send' assumes an implicit 'self' as the receiver (self.send), which is the main object in this case.
