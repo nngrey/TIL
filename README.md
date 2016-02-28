@@ -43,6 +43,7 @@ _1 TILs and counting..._
 ### Ruby
 
 - [send](ruby/send.md)
+- [reduce](ruby/reduce.md)
 
 ### CSS
 
