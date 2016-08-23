@@ -38,7 +38,7 @@ _1 TILs and counting..._
 
 ### Rails
 
-- [accepts_nested_attributes_for](Rails/accepts_nested_attributes_for)
+- [accepts_nested_attributes_for](Rails/accepts_nested_attributes_for.md)
 - [foreign_keys](Rails/foreign_keys.md)
 - [inverse_of](Rails/inverse_of.md)
 - [MIME type](Rails/mime_type.md)
