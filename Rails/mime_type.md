@@ -1,4 +1,4 @@
-#MIME type
+# MIME type
 
 At a recent interview, I was asked a question about uploading files and security and the answer was MIME types. So what is a MIME type?
 

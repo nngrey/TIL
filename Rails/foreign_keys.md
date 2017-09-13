@@ -1,4 +1,4 @@
-#Foreign Keys
+# Foreign keys
 
 I always get confused about when to add a foreign key and an index to a reference. Based on my research, it seems like it is generally a good idea to do both.
 

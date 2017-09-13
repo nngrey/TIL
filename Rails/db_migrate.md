@@ -1,4 +1,4 @@
-#rake db:migrate
+# rake db:migrate
 
 When you run db:migrate for the first time, a table called schema_migrations is created.
 This table stores the version number of each migration (the number that prefaces the migration name).

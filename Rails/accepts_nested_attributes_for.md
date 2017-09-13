@@ -1,4 +1,4 @@
-#accepts_nested_attributes_for
+# accepts_nested_attributes_for
 
 Add accepts_nested_attributes_for to the parent class if you want to save attributes on associated records through the parent:
 

@@ -1,4 +1,4 @@
-#inverse_of
+# inverse_of
 
 Add inverse_of to a belongs_to relationship, except if it through or as relationship:
 
