@@ -40,6 +40,7 @@ smart people at [SpendWell Health](https://www.spendwellhealth.com/).
 - [foreign_keys](Rails/foreign_keys.md)
 - [inverse_of](Rails/inverse_of.md)
 - [MIME type](Rails/mime_type.md)
+- [db:migrate](Rails/db_migrate.md)
 
 ### Ruby
 
